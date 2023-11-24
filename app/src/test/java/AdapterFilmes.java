@@ -6,7 +6,13 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 
 public class AdapterFilmes extends RecyclerView.Adapter<AdapterFilmes.ViewHolder> {
+    private Context context;
+    private List<Filmes>lstFilmes;
 
+    public AdapterFilmes(Context context, List<Filmes> lstFilmes) {
+        this.context = context;
+        this.lstFilmes = lstFilmes;
+    }
 
     @NonNull
     @Override
