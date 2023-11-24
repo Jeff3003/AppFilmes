@@ -24,7 +24,7 @@ public class AdapterFilmes extends RecyclerView.Adapter<AdapterFilmes.ViewHolder
         return 0;
     }
 
-    public class ViewHolder extends RecyclerView{
+    public class ViewHolder extends RecyclerView {
 
         public ViewHolder(@NonNull Context context) {
             super(context);
