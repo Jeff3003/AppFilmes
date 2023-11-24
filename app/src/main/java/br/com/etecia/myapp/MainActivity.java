@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
         idRecycleViewFilmes = findViewById(R.id.idRecycleViewFilmes);
 
+        idRecycleViewFilmes.setLayoutManager();
+
 
     }
 }
